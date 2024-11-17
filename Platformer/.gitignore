@@ -1,0 +1,30 @@
+# Ignore temporary files from the root directory
+*.log
+*.dat
+*.dmp
+
+# Ignore all binary files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore Windows Thumbs.db files
+Thumbs.db
+
+# Ignore configuration files for various IDEs
+.idea/
+.vs/
+
+# Ignore compiled project files
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Ignore additional build tools
+BuildBatchFiles/
